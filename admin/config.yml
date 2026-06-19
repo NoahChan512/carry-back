@@ -6,43 +6,39 @@ media_folder: "assets/uploads"
 public_folder: "/assets/uploads"
 
 collections:
-  - name: "settings"
+  - name: "site"
     label: "Site Settings"
     files:
-      - label: "Homepage Settings"
-        name: "site"
-        file: "content/site.json"
-        format: "json"
+      - file: "content/settings.json"
+        label: "Homepage Settings"
+        name: "settings"
         fields:
           - {label: "Brand", name: "brand", widget: "string"}
-          - {label: "Tagline", name: "tagline", widget: "string"}
-          - {label: "Tagline Chinese", name: "tagline_zh", widget: "string"}
-          - {label: "Next Trip", name: "next_trip", widget: "string"}
-          - {label: "Instagram URL", name: "instagram", widget: "string", required: false}
+          - {label: "Tagline", name: "tagline", widget: "string", required: false}
+          - {label: "Hero", name: "hero", widget: "text"}
+          - {label: "Hero Chinese", name: "heroZh", widget: "text", required: false}
+          - {label: "Instagram", name: "instagram", widget: "string", required: false}
           - {label: "WhatsApp", name: "whatsapp", widget: "string", required: false}
+          - {label: "Next Trip", name: "nextTrip", widget: "string"}
           - {label: "Notice", name: "notice", widget: "text"}
-          - {label: "Notice Chinese", name: "notice_zh", widget: "text"}
   - name: "products"
-    label: "Products"
+    label: "Products / Requests"
     files:
-      - label: "Product Board"
+      - file: "content/products.json"
+        label: "Product List"
         name: "products"
-        file: "content/products.json"
-        format: "json"
         fields:
           - label: "Products"
             name: "products"
             widget: "list"
-            summary: "{{fields.id}} — {{fields.name}}"
+            summary: "{{fields.name}} — {{fields.country}}"
             fields:
               - {label: "ID", name: "id", widget: "string"}
-              - {label: "Name", name: "name", widget: "string"}
-              - {label: "Name Chinese", name: "name_zh", widget: "string", required: false}
+              - {label: "Product name", name: "name", widget: "string"}
               - {label: "Country", name: "country", widget: "string"}
-              - {label: "Category", name: "category", widget: "string", required: false}
-              - {label: "Estimated Price", name: "estimated_price", widget: "string"}
-              - {label: "Service Fee", name: "service_fee", widget: "string"}
-              - {label: "Status", name: "status", widget: "select", options: ["open", "limited", "closed"]}
+              - {label: "Category", name: "category", widget: "string"}
+              - {label: "Price note", name: "priceNote", widget: "string"}
+              - {label: "Service fee", name: "fee", widget: "string"}
+              - {label: "Status", name: "status", widget: "select", options: ["Open for interest", "Limited", "Closed"]}
               - {label: "Image", name: "image", widget: "image", required: false}
               - {label: "Description", name: "description", widget: "text"}
-              - {label: "Description Chinese", name: "description_zh", widget: "text", required: false}

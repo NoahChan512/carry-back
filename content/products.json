@@ -1,43 +1,37 @@
 {
   "products": [
     {
-      "id": "001",
-      "name": "Trader Joe’s snacks bundle",
-      "name_zh": "Trader Joe’s 零食套裝",
+      "id": "usa-001",
+      "name": "Trader Joe’s tote / snack request",
       "country": "USA",
-      "category": "Food",
-      "estimated_price": "HK$80–180",
-      "service_fee": "15% or HK$30 minimum",
-      "status": "open",
+      "category": "Lifestyle / snacks",
+      "priceNote": "Estimate after item is confirmed",
+      "fee": "HK$30–80 service fee or 12–18% of item price",
+      "status": "Open for interest",
       "image": "",
-      "description": "A flexible snack bundle from Trader Joe’s. Final items depend on availability.",
-      "description_zh": "Trader Joe’s 零食組合，實際款式視乎現場供應。"
+      "description": "Tell us what you want from the US. We confirm price, space and pickup method before collecting deposit."
     },
     {
-      "id": "002",
-      "name": "Sephora beauty request",
-      "name_zh": "Sephora 美妝代購",
-      "country": "USA / Canada",
-      "category": "Beauty",
-      "estimated_price": "Retail price + service fee",
-      "service_fee": "12–18% depending on item size",
-      "status": "open",
+      "id": "ca-001",
+      "name": "Canada pharmacy / local goods request",
+      "country": "Canada",
+      "category": "Health / daily goods",
+      "priceNote": "Estimate after item is confirmed",
+      "fee": "HK$30–100 service fee depending on size",
+      "status": "Open for interest",
       "image": "",
-      "description": "Send product link or screenshot. We confirm final price before purchase.",
-      "description_zh": "你可以提交產品連結或截圖，我哋購買前會先確認最終價錢。"
+      "description": "For light, legal and easy-to-carry items only. No prohibited goods, liquids over airline limits, or fragile items without confirmation."
     },
     {
-      "id": "003",
-      "name": "Limited souvenir pickup",
-      "name_zh": "限定手信／紀念品",
-      "country": "Any trip",
-      "category": "Lifestyle",
-      "estimated_price": "Quote after request",
-      "service_fee": "HK$30+ depending on effort",
-      "status": "open",
+      "id": "travel-001",
+      "name": "Open request — tell us what to bring back",
+      "country": "Next trip",
+      "category": "Custom request",
+      "priceNote": "Quote before purchase",
+      "fee": "Deposit required after quote approval",
+      "status": "Open for interest",
       "image": "",
-      "description": "For small souvenirs, postcards, merch, or local finds.",
-      "description_zh": "適合小手信、明信片、周邊、本地特色小物。"
+      "description": "Submit a request. We check availability, luggage space, risk and final estimate."
     }
   ]
 }
