@@ -1,0 +1,11 @@
+CarryBack setup
+
+1. Create GitHub repo, e.g. carryback.
+2. Upload all files/folders in this package to the repo root.
+3. Netlify → Add new site → Import from GitHub → choose repo.
+4. Build command: leave blank. Publish directory: .
+5. Netlify → Identity → Enable Identity.
+6. Identity → Services → Enable Git Gateway.
+7. Invite yourself as user. Accept invite.
+8. Open your site /admin/ to edit products.
+9. Product interest submissions: Netlify → Forms → carryback-interest.

@@ -1,0 +1,43 @@
+{
+  "products": [
+    {
+      "id": "001",
+      "name": "Trader Joe’s snacks bundle",
+      "name_zh": "Trader Joe’s 零食套裝",
+      "country": "USA",
+      "category": "Food",
+      "estimated_price": "HK$80–180",
+      "service_fee": "15% or HK$30 minimum",
+      "status": "open",
+      "image": "",
+      "description": "A flexible snack bundle from Trader Joe’s. Final items depend on availability.",
+      "description_zh": "Trader Joe’s 零食組合，實際款式視乎現場供應。"
+    },
+    {
+      "id": "002",
+      "name": "Sephora beauty request",
+      "name_zh": "Sephora 美妝代購",
+      "country": "USA / Canada",
+      "category": "Beauty",
+      "estimated_price": "Retail price + service fee",
+      "service_fee": "12–18% depending on item size",
+      "status": "open",
+      "image": "",
+      "description": "Send product link or screenshot. We confirm final price before purchase.",
+      "description_zh": "你可以提交產品連結或截圖，我哋購買前會先確認最終價錢。"
+    },
+    {
+      "id": "003",
+      "name": "Limited souvenir pickup",
+      "name_zh": "限定手信／紀念品",
+      "country": "Any trip",
+      "category": "Lifestyle",
+      "estimated_price": "Quote after request",
+      "service_fee": "HK$30+ depending on effort",
+      "status": "open",
+      "image": "",
+      "description": "For small souvenirs, postcards, merch, or local finds.",
+      "description_zh": "適合小手信、明信片、周邊、本地特色小物。"
+    }
+  ]
+}
