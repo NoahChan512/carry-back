@@ -7,7 +7,7 @@ Important:
 Free stack:
 - GitHub repo stores files
 - Netlify deploys from GitHub automatically
-- /admin uses Decap CMS to edit homepage, ticket content, and product/request cards
+- /admin uses Decap CMS to edit homepage, ticket content, product/request cards, and form trip/location options
 - Interest form submissions go to Netlify Dashboard > Site > Forms > carryback-interest
 
 Setup:
@@ -20,8 +20,9 @@ Setup:
 7. Identity > Services > Enable Git Gateway.
 8. Invite yourself as user.
 9. Open https://your-site.netlify.app/admin/ and log in.
-10. Edit Homepage Settings to change the ticket/boarding-pass content.
+10. Edit Homepage Settings to change the ticket/boarding-pass content and form trip/location options.
 
 Form note:
 - The HTML form already includes the required netlify attribute and hidden form-name field.
+- The trip/location dropdown is controlled by Homepage Settings > Form trip / location options.
 - Netlify detects forms at deploy time. If Forms still says “Add an HTML form...”, redeploy this package through the GitHub-connected Netlify site, then check Forms again.

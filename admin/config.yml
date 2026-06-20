@@ -23,6 +23,11 @@ collections:
           - {label: "Next Trip Chinese", name: "nextTripZh", widget: "string", required: false}
           - {label: "Notice English", name: "notice", widget: "text"}
           - {label: "Notice Chinese", name: "noticeZh", widget: "text", required: false}
+          - label: "Form trip / location options"
+            name: "formTripOptions"
+            widget: "list"
+            summary: "{{fields.option}}"
+            field: {label: "Option text", name: "option", widget: "string", hint: "Example: Taiwan｜台灣"}
           - {label: "Ticket stamp", name: "ticketStamp", widget: "text", required: false, hint: "Use a new line for two-line stamp, e.g. REQUEST / FIRST"}
           - {label: "Ticket title", name: "ticketTitle", widget: "string", required: false}
           - {label: "Ticket English text", name: "ticketText", widget: "text", required: false}

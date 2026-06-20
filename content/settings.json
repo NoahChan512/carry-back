@@ -26,5 +26,10 @@
   "ticketStubTop": "Boarding pass",
   "ticketStubCode": "CB",
   "ticketStubMid": "REQUEST\nCONFIRMED",
-  "ticketStubBottom": "NO BLIND\nORDERS"
+  "ticketStubBottom": "NO BLIND\nORDERS",
+  "formTripOptions": [
+    "USA / Canada｜美國／加拿大",
+    "Future trip｜未來旅程",
+    "Not sure yet｜未確定"
+  ]
 }
