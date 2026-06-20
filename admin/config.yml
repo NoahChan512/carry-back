@@ -15,12 +15,14 @@ collections:
         fields:
           - {label: "Brand", name: "brand", widget: "string"}
           - {label: "Tagline", name: "tagline", widget: "string", required: false}
-          - {label: "Hero", name: "hero", widget: "text"}
+          - {label: "Hero English", name: "hero", widget: "text"}
           - {label: "Hero Chinese", name: "heroZh", widget: "text", required: false}
           - {label: "Instagram", name: "instagram", widget: "string", required: false}
           - {label: "WhatsApp", name: "whatsapp", widget: "string", required: false}
-          - {label: "Next Trip", name: "nextTrip", widget: "string"}
-          - {label: "Notice", name: "notice", widget: "text"}
+          - {label: "Next Trip English", name: "nextTrip", widget: "string"}
+          - {label: "Next Trip Chinese", name: "nextTripZh", widget: "string", required: false}
+          - {label: "Notice English", name: "notice", widget: "text"}
+          - {label: "Notice Chinese", name: "noticeZh", widget: "text", required: false}
   - name: "products"
     label: "Products / Requests"
     files:
@@ -34,11 +36,18 @@ collections:
             summary: "{{fields.name}} — {{fields.country}}"
             fields:
               - {label: "ID", name: "id", widget: "string"}
-              - {label: "Product name", name: "name", widget: "string"}
-              - {label: "Country", name: "country", widget: "string"}
-              - {label: "Category", name: "category", widget: "string"}
-              - {label: "Price note", name: "priceNote", widget: "string"}
-              - {label: "Service fee", name: "fee", widget: "string"}
-              - {label: "Status", name: "status", widget: "select", options: ["Open for interest", "Limited", "Closed"]}
+              - {label: "Product name English", name: "name", widget: "string"}
+              - {label: "Product name Chinese", name: "nameZh", widget: "string", required: false}
+              - {label: "Country English", name: "country", widget: "string"}
+              - {label: "Country Chinese", name: "countryZh", widget: "string", required: false}
+              - {label: "Category English", name: "category", widget: "string"}
+              - {label: "Category Chinese", name: "categoryZh", widget: "string", required: false}
+              - {label: "Price note English", name: "priceNote", widget: "string"}
+              - {label: "Price note Chinese", name: "priceNoteZh", widget: "string", required: false}
+              - {label: "Service fee English", name: "fee", widget: "string"}
+              - {label: "Service fee Chinese", name: "feeZh", widget: "string", required: false}
+              - {label: "Status English", name: "status", widget: "select", options: ["Open for interest", "Limited", "Closed"]}
+              - {label: "Status Chinese", name: "statusZh", widget: "string", required: false}
               - {label: "Image", name: "image", widget: "image", required: false}
-              - {label: "Description", name: "description", widget: "text"}
+              - {label: "Description English", name: "description", widget: "text"}
+              - {label: "Description Chinese", name: "descriptionZh", widget: "text", required: false}

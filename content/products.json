@@ -3,35 +3,56 @@
     {
       "id": "usa-001",
       "name": "Trader Joe’s tote / snack request",
+      "nameZh": "Trader Joe’s 手挽袋／零食代購",
       "country": "USA",
+      "countryZh": "美國",
       "category": "Lifestyle / snacks",
+      "categoryZh": "生活用品／零食",
       "priceNote": "Estimate after item is confirmed",
+      "priceNoteZh": "確認商品後先報價",
       "fee": "HK$30–80 service fee or 12–18% of item price",
+      "feeZh": "服務費 HK$30–80，或商品價 12–18%",
       "status": "Open for interest",
+      "statusZh": "接受查詢",
       "image": "",
-      "description": "Tell us what you want from the US. We confirm price, space and pickup method before collecting deposit."
+      "description": "Tell us what you want from the US. We confirm price, space and pickup method before collecting deposit.",
+      "descriptionZh": "告訴我們你想由美國帶回甚麼；我們會先確認價錢、行李空間和交收方法，再收訂金。"
     },
     {
       "id": "ca-001",
       "name": "Canada pharmacy / local goods request",
+      "nameZh": "加拿大藥房／本地小物代購",
       "country": "Canada",
+      "countryZh": "加拿大",
       "category": "Health / daily goods",
+      "categoryZh": "健康／日用品",
       "priceNote": "Estimate after item is confirmed",
+      "priceNoteZh": "確認商品後先報價",
       "fee": "HK$30–100 service fee depending on size",
+      "feeZh": "視乎大小，服務費約 HK$30–100",
       "status": "Open for interest",
+      "statusZh": "接受查詢",
       "image": "",
-      "description": "For light, legal and easy-to-carry items only. No prohibited goods, liquids over airline limits, or fragile items without confirmation."
+      "description": "For light, legal and easy-to-carry items only. No prohibited goods, liquids over airline limits, or fragile items without confirmation.",
+      "descriptionZh": "只接受輕便、合法、易攜帶物品；禁運品、超量液體、易碎物品需先確認。"
     },
     {
       "id": "travel-001",
       "name": "Open request — tell us what to bring back",
+      "nameZh": "自由代購需求 — 你想我帶甚麼回來？",
       "country": "Next trip",
+      "countryZh": "下一次旅程",
       "category": "Custom request",
+      "categoryZh": "自訂需求",
       "priceNote": "Quote before purchase",
+      "priceNoteZh": "購買前先報價",
       "fee": "Deposit required after quote approval",
+      "feeZh": "確認報價後收訂金",
       "status": "Open for interest",
+      "statusZh": "接受查詢",
       "image": "",
-      "description": "Submit a request. We check availability, luggage space, risk and final estimate."
+      "description": "Submit a request. We check availability, luggage space, risk and final estimate.",
+      "descriptionZh": "提交你想買的東西，我們會檢查庫存、行李空間、風險和最終估價。"
     }
   ]
 }
